@@ -35,64 +35,101 @@ Below is an example of how the program interacts with the user through the conso
 
 ```plaintext
 -------------------------------------------------------------------------------------------
-  Welcome to the emergency list management system for the Urgence Animale clinic.
--------------------------------------------------------------------------------------------
+  Bienvenue dans le système de gestion de liste d'urgence de la clinique Urgence Animale.
+  ---------------------------------------------------------------------------------------------
 
-*** Emergency List Management for Urgence Animale Clinic ***
-    1. Add an animal to the waiting list
-    2. Assign a technician and veterinarian to the first animal 
-       in the waiting list
-    3. Modify the priority of an animal in the waiting list
-    4. Remove an animal from the waiting list
-    5. Search for an animal by ID
-    6. Search for an animal by name and species
-    7. Display all animals in the waiting list
-    8. Display all animals assigned to a technician and veterinarian
-    9. Display the list of technicians and veterinarians
-    0. Exit the program
 
-Enter your choice: 1
+  *** Gestion de la liste d'urgence de la clinique UA ***
+      1. Ajouter un animal dans la file d'attente
+      2. Assigner un technicien et un vétérinaire au premier animal 
+         dans la file d'attente
+      3. Modifier la priorité d'un animal dans la file d'attente
+      4. Retirer un animal de la file d'attente
+      5. Rechercher un animal à partir de son identifiant
+      6. Rechercher un animal à partir de son prénom et de son espèce
+      7. Afficher tous les animaux dans la file d'attente
+      8. Afficher tous les animaux qui ont un technicien et un vétérinaire assignés
+      9. Afficher les techniciens et les vétérinaires
+      0. Quitter le programme
 
-Enter the animal’s name (cannot be empty): Milou
 
-Enter the animal’s species (e.g., dog or cat): dog
+  Entrez votre choix : 1
 
-Enter the animal’s age (e.g., 8 months or 2 years): 4 months
+  Entrez le prénom de l'animal (le prénom ne doit pas être vide): Milou
 
-Enter the reason for the emergency: Sad
+  Entrez l'espèce de l'animal (exemple : chien ou chat): chien
 
-Enter the priority (1 to 5): 3
+  Entrez l'âge de l'animal (exemple : 8 mois ou 2 ans): 4mois
 
-Enter the owner’s first name (cannot be empty): Cristian
+  Entrez la raison de l'urgence : Triste
 
-Enter the owner’s last name (cannot be empty): Kone
+  Entrez la priorité (1 à 5 inclusivement): 3
 
-Enter the owner’s phone number (format: NNN NNN-NNNN): 3232224433
+  Entrez le prénom du propriétaire (le prénom ne doit pas être vide): Cristian
 
-The phone number is invalid!
+  Entrez le nom du propriétaire (le nom ne doit pas être vide): Kone
 
-Enter the owner’s phone number (format: NNN NNN-NNNN): 222 333-4332
+  Entrez le numéro de téléphone du propriétaire (format : NNN NNN-NNNN): 3232224433
 
-Is the animal insured (O or o = Yes, N or n = No): O
+  Le numéro de téléphone est invalide!
 
-Enter the insurance number (cannot be empty): 121123445
+  Entrez le numéro de téléphone du propriétaire (format : NNN NNN-NNNN): 222 333-4332
 
---------------------------------------------------------------------------
-Here is the animal’s ID added to the waiting list: 1000
---------------------------------------------------------------------------
+  L'animal est-il assuré (O ou o = Oui, N ou n = Non) : O
 
-Enter your choice: 7
+  Entrez le numéro d'assurance (le numéro d'assurance ne doit pas être vide): 121123445
 
--------------------------------------------------------------------------------
-Here are the requested details:
--------------------------------------------------------------------------------
 
-ID = 1000 | Name = Milou | Species = dog | Age = 4 months
-Emergency Reason = Sad
-Priority = 3
-Date and Time of Arrival = Dec 24, 2024, 2:53:13 PM
-Owner = Cristian Kone | 222 333-4332 | 121123445
-Technician = None
-Veterinarian = None
--------------------------------------------------------------------------------
+   --------------------------------------------------------------------------
+    Voici l'identifiant de l'animal ajouté dans la file d'attente : 1000
+   --------------------------------------------------------------------------
+
+
+  *** Gestion de la liste d'urgence de la clinique UA ***
+      1. Ajouter un animal dans la file d'attente
+      2. Assigner un technicien et un vétérinaire au premier animal 
+         dans la file d'attente
+      3. Modifier la priorité d'un animal dans la file d'attente
+      4. Retirer un animal de la file d'attente
+      5. Rechercher un animal à partir de son identifiant
+      6. Rechercher un animal à partir de son prénom et de son espèce
+      7. Afficher tous les animaux dans la file d'attente
+      8. Afficher tous les animaux qui ont un technicien et un vétérinaire assignés
+      9. Afficher les techniciens et les vétérinaires
+      0. Quitter le programme
+
+
+  Entrez votre choix : 7
+
+
+   -----------------------------------------------------------------------------
+    Voici les informations demandées 
+   -----------------------------------------------------------------------------
+    
+    Identifiant = 1000 | Prénom = Milou | Espèce = chien | Age  =  4mois
+    Raison d'urgence = Triste
+    Priorité = 3
+    Date et heure d'arrivée = 24 déc. 2024, 14 h 53 min 13 s
+    Propriétaire  = Kone Cristian | 222 333-4332 | 121123445
+    Technicien    =  Aucun
+    Vétérinaire   =  Aucun
+
+   --------------------------------------------------------------------------
+
+
+  *** Gestion de la liste d'urgence de la clinique UA ***
+      1. Ajouter un animal dans la file d'attente
+      2. Assigner un technicien et un vétérinaire au premier animal 
+         dans la file d'attente
+      3. Modifier la priorité d'un animal dans la file d'attente
+      4. Retirer un animal de la file d'attente
+      5. Rechercher un animal à partir de son identifiant
+      6. Rechercher un animal à partir de son prénom et de son espèce
+      7. Afficher tous les animaux dans la file d'attente
+      8. Afficher tous les animaux qui ont un technicien et un vétérinaire assignés
+      9. Afficher les techniciens et les vétérinaires
+      0. Quitter le programme
+
+
+  Entrez votre choix : 
 ```
